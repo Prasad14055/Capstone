@@ -1,0 +1,307 @@
+{
+	"id": "0d2d8cd5-c6b1-4e9c-ac9b-5ccdb344d54c",
+	"name": "Final Capstone",
+	"timestamp": "2024-02-02T05:09:00.529Z",
+	"collection_id": "26377179-72bd15d4-de0a-4ead-96bd-b3ace783f466",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 69,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2024-02-02T05:08:46.666Z",
+	"totalFail": 30,
+	"results": [
+		{
+			"id": "ff5ecb14-24d3-4531-9da3-3df0efd369f6",
+			"name": "First Request",
+			"url": "https://reqres.in/api/users?delay={{delayId}}",
+			"time": 374,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"verify the status code": false,
+				"response time is less than 900ms": true,
+				"check the status code name": true,
+				"Status code name has string ": false,
+				"Response header": false,
+				"verify status code is 200": true,
+				"verify datatype": true,
+				"verify data": true
+			},
+			"testPassFailCounts": {
+				"verify the status code": {
+					"pass": 2,
+					"fail": 3
+				},
+				"response time is less than 900ms": {
+					"pass": 3,
+					"fail": 0
+				},
+				"check the status code name": {
+					"pass": 3,
+					"fail": 0
+				},
+				"Status code name has string ": {
+					"pass": 0,
+					"fail": 3
+				},
+				"Response header": {
+					"pass": 2,
+					"fail": 3
+				},
+				"verify status code is 200": {
+					"pass": 3,
+					"fail": 0
+				},
+				"verify datatype": {
+					"pass": 3,
+					"fail": 0
+				},
+				"verify data": {
+					"pass": 5,
+					"fail": 0
+				}
+			},
+			"times": [
+				376,
+				377,
+				374
+			],
+			"allTests": [
+				{
+					"verify the status code": false,
+					"response time is less than 900ms": true,
+					"check the status code name": true,
+					"Status code name has string ": false,
+					"Response header": false,
+					"verify status code is 200": true,
+					"verify datatype": true,
+					"verify data": true
+				},
+				{
+					"verify the status code": false,
+					"response time is less than 900ms": true,
+					"check the status code name": true,
+					"Status code name has string ": false,
+					"Response header": false,
+					"verify status code is 200": true,
+					"verify datatype": true,
+					"verify data": true
+				},
+				{
+					"verify the status code": false,
+					"response time is less than 900ms": true,
+					"check the status code name": true,
+					"Status code name has string ": false,
+					"Response header": false,
+					"verify status code is 200": true,
+					"verify datatype": true,
+					"verify data": true
+				}
+			]
+		},
+		{
+			"id": "79007fdd-7c69-496a-9165-36211b2fdc94",
+			"name": "Second Request",
+			"url": "https://reqres.in/api/users?delay=3",
+			"time": 3375,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"verify the status code": false,
+				"response time is less than 900ms": false,
+				"check the status code name": true,
+				"Status code name has string ": false,
+				"Response header": false,
+				"verify status code is 200": true,
+				"verify datatype": true,
+				"verify data": true
+			},
+			"testPassFailCounts": {
+				"verify the status code": {
+					"pass": 2,
+					"fail": 3
+				},
+				"response time is less than 900ms": {
+					"pass": 0,
+					"fail": 3
+				},
+				"check the status code name": {
+					"pass": 3,
+					"fail": 0
+				},
+				"Status code name has string ": {
+					"pass": 0,
+					"fail": 3
+				},
+				"Response header": {
+					"pass": 2,
+					"fail": 3
+				},
+				"verify status code is 200": {
+					"pass": 3,
+					"fail": 0
+				},
+				"verify datatype": {
+					"pass": 3,
+					"fail": 0
+				},
+				"verify data": {
+					"pass": 5,
+					"fail": 0
+				}
+			},
+			"times": [
+				3379,
+				3397,
+				3375
+			],
+			"allTests": [
+				{
+					"verify the status code": false,
+					"response time is less than 900ms": false,
+					"check the status code name": true,
+					"Status code name has string ": false,
+					"Response header": false,
+					"verify status code is 200": true,
+					"verify datatype": true,
+					"verify data": true
+				},
+				{
+					"verify the status code": false,
+					"response time is less than 900ms": false,
+					"check the status code name": true,
+					"Status code name has string ": false,
+					"Response header": false,
+					"verify status code is 200": true,
+					"verify datatype": true,
+					"verify data": true
+				},
+				{
+					"verify the status code": false,
+					"response time is less than 900ms": false,
+					"check the status code name": true,
+					"Status code name has string ": false,
+					"Response header": false,
+					"verify status code is 200": true,
+					"verify datatype": true,
+					"verify data": true
+				}
+			]
+		},
+		{
+			"id": "e1e1bfc1-3945-4bb3-a005-49718ac76f90",
+			"name": "New Request",
+			"url": "https://reqres.in/api/users?delay={delayId}",
+			"time": 364,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"verify the status code": true,
+				"response time is less than 900ms": true,
+				"check the status code name": false,
+				"Status code name has string ": true,
+				"Response header": false,
+				"verify status code is 200": true,
+				"verify datatype": true,
+				"verify data": true
+			},
+			"testPassFailCounts": {
+				"verify the status code": {
+					"pass": 3,
+					"fail": 2
+				},
+				"response time is less than 900ms": {
+					"pass": 3,
+					"fail": 0
+				},
+				"check the status code name": {
+					"pass": 0,
+					"fail": 3
+				},
+				"Status code name has string ": {
+					"pass": 3,
+					"fail": 0
+				},
+				"Response header": {
+					"pass": 2,
+					"fail": 3
+				},
+				"verify status code is 200": {
+					"pass": 3,
+					"fail": 0
+				},
+				"verify datatype": {
+					"pass": 3,
+					"fail": 0
+				},
+				"verify data": {
+					"pass": 5,
+					"fail": 0
+				}
+			},
+			"times": [
+				374,
+				368,
+				364
+			],
+			"allTests": [
+				{
+					"verify the status code": true,
+					"response time is less than 900ms": true,
+					"check the status code name": false,
+					"Status code name has string ": true,
+					"Response header": false,
+					"verify status code is 200": true,
+					"verify datatype": true,
+					"verify data": true
+				},
+				{
+					"verify the status code": true,
+					"response time is less than 900ms": true,
+					"check the status code name": false,
+					"Status code name has string ": true,
+					"Response header": false,
+					"verify status code is 200": true,
+					"verify datatype": true,
+					"verify data": true
+				},
+				{
+					"verify the status code": true,
+					"response time is less than 900ms": true,
+					"check the status code name": false,
+					"Status code name has string ": true,
+					"Response header": false,
+					"verify status code is 200": true,
+					"verify datatype": true,
+					"verify data": true
+				}
+			]
+		}
+	],
+	"count": 3,
+	"totalTime": 12384,
+	"collection": {
+		"requests": [
+			{
+				"id": "ff5ecb14-24d3-4531-9da3-3df0efd369f6",
+				"method": "GET"
+			},
+			{
+				"id": "79007fdd-7c69-496a-9165-36211b2fdc94",
+				"method": "GET"
+			},
+			{
+				"id": "e1e1bfc1-3945-4bb3-a005-49718ac76f90",
+				"method": "POST"
+			}
+		]
+	}
+}

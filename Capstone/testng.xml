@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Test Automation Suite">
+<listeners>
+<listener class-name="com.sdet.utils.Reporting"></listener>
+</listeners>
+<parameter name="Url" value="https://www.saucedemo.com/"></parameter>
+  <test thread-count="5" name="Test">
+  <parameter name="Browser" value="Edge"></parameter>
+    <classes>
+      <class name="com.sdet.testscript.TC_Login_001"/>
+      <class name="com.sdet.testscript.TC_InvalidLogin_002"/>
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
